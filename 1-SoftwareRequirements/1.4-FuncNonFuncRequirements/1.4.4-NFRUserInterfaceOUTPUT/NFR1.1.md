@@ -1,2 +1,2 @@
 Вимога NFR1.1 = Вимога FR1.1:
-![FR 1](https://user-images.githubusercontent.com/79446240/191304975-8c2a7a2c-d5fa-44ca-9a0f-562eb7ce7b82.png)
+![FR 1](https://user-images.githubusercontent.com/79446240/191305495-de00e156-3dcf-4f57-8fe8-977446a32318.png)
