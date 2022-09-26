@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T16:25:18.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UpsYZjSnKNfipihsoEdX" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T16:26:53.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zzb0T_v4QawQ8wgB2H2-" version="20.3.3" type="github">
   <diagram id="_FwiTyVVHIKA8jnmTa-8" name="Сторінка-1">
     <mxGraphModel dx="1405" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint x="440" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6NBEBJOkaVTiGiDQtky-14" value="&amp;lt;&amp;lt;Cервер 2&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+        <mxCell id="B6NBEBJOkaVTiGiDQtky-14" value="&amp;lt;&amp;lt;Cервер 1&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="150" width="270" height="240" as="geometry" />
         </mxCell>
         <mxCell id="B6NBEBJOkaVTiGiDQtky-15" value="&amp;lt;&amp;lt;OC Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
             <mxPoint x="800" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6NBEBJOkaVTiGiDQtky-20" value="&amp;lt;&amp;lt;Cервер 4&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+        <mxCell id="B6NBEBJOkaVTiGiDQtky-20" value="&amp;lt;&amp;lt;Cервер 2&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="140" width="280" height="250" as="geometry" />
         </mxCell>
         <mxCell id="B6NBEBJOkaVTiGiDQtky-21" value="&amp;lt;&amp;lt;OC Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
