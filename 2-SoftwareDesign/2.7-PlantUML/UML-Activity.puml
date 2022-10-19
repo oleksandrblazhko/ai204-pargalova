@@ -1,0 +1,14 @@
+@startuml
+title Conditional - Activity Diagram 
+
+start
+:The user fills personal data;
+:The programm analyzes personal data;
+if (Is personal data correct?) then (Yes)
+  :Personal data is correct!;
+else (No)
+  :Personal data is incorrect!;
+endif
+stop
+
+@enduml
