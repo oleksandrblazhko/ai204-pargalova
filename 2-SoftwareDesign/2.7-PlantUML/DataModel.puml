@@ -1,0 +1,44 @@
+@startuml
+title Relation Schema
+hide circle
+  entity "User" as us {
+  (PK)user_id
+  --
+  surname
+  name
+  patronymic
+  e-mail adress
+  (FK)psychologist_id
+}
+entity "Psychologist" as psy {
+  (PK)psychologist_id
+  --
+  education
+  work_experience
+  salary
+  (FK)recommends_id
+}
+entity "Recommends" as rec {
+  (PK)recommends_id
+  --
+  S.N.P.
+  sleep quality
+  birth date
+  mental state
+  (FK)personaldata_id
+}
+entity "Personal data" as pb {
+  (PK)personaldata_id
+  --
+  S.N.P.
+  sleep quality
+  birth date
+  mental state
+  (FK)psychologist_id
+}
+us --{ psy
+rec--{ psy
+rec }-- pb
+pb }-- psy
+
+@enduml
