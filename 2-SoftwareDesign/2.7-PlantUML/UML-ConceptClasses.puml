@@ -1,0 +1,13 @@
+@startuml
+title Classes Diagram
+
+Class Psychologist
+Class User
+Class Personal_data
+Class Recommends
+
+Psychologist--|> User
+Psychologist"1" -up-> "+"Personal_data : analyze
+Psychologist"1" -left-> "+"Recommends : provide
+Personal_data"1" --o "+"Recommends
+@enduml
