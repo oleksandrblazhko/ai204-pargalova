@@ -1,0 +1,17 @@
+@startuml 
+title Usecase for Information system
+left to right direction
+skinparam packageStyle rect
+actor User
+actor Insomnia
+actor Fondy
+rectangle Software {
+  User -- (Authorization)
+  User <|-- Insomnia
+  Insomnia -- (Pay for the session)
+  (Make an E-payment) --- Fondy
+  (Pay for the session) <. (Make an E-payment) : <<extend>>
+  (Authorization) <.up. (Pay for the session) : <<include>>
+}
+@enduml
+
